@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sh gradlew :example:assembleBytexCnDebug "$@" | tee .log/log.txt
